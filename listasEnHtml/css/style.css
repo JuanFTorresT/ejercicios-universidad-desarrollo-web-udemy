@@ -1,0 +1,47 @@
+
+/* ------------Estilos Menú navegación------------- */
+
+/* ul{
+    list-style-type: none;
+    background-color: black;
+    padding: 15px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+ul li a:hover{
+    background-color: rgb(81, 81, 81);
+} */
+
+/* ------------Estilos listas ordenadas------------- */
+
+
+/* Especificamos que vamos a utilizar la variable contador en la lista y se reinicia el valor a cero en cada lista nueva
+ol{
+    list-style: none;
+    counter-reset: contador;
+}
+
+Por cada elemento se incrementa en 1 el contador
+ol li{
+    counter-increment: contador;
+}
+
+counter es para especificar un contador que se inicializa en 0
+ol li::before{
+    content: "Curso " counter(contador) " | ";
+    font-weight: bold;
+    color: darkorange;
+}
+
+ol li::after{
+    content: ".";
+} */
