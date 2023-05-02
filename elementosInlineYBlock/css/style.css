@@ -1,0 +1,99 @@
+.contenedor-iframe h1{
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+.contenedor-iframe p{
+    text-align: center;
+}
+
+.contenedor-iframe iframe{
+    width: 100%;
+    overflow: scroll;
+    height: 200px;
+}
+
+.iframe h1,p{
+    text-align: center;
+}
+
+a{
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.centrar{
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* estilos Leccion div
+
+h1{
+    color: crimson;
+    text-align: center;
+    font-size: 3rem;
+}
+
+ul{
+    background: rgb(179, 118, 118);
+    
+}
+
+ul a{
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+ul li{
+    list-style: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0 10px;
+}
+
+ul li:hover{
+    background-color: rgb(110, 54, 54);
+}
+ 
+
+.caja{
+    border: 10px solid rgb(76, 0, 151);
+    background-color: rgb(225, 255, 225);
+    text-align: center;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+h2{
+    color: rgb(76, 0, 151);
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+
+.caja p{
+
+    color: rgb(0, 214, 143);
+}
+
+.caja p::before{
+    content: "Creador: ";
+    color: crimson;
+    font-size: 1.5rem;
+}
+
+p{
+    margin-top: 0;
+    font-size: 1.5rem;
+    font-size: 1.5rem;
+} */
