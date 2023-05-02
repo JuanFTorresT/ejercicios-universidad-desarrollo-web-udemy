@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+table{
+    width: 100%;
+}
+
+caption{
+    font-size: 2rem;
+    line-height: 4rem;
+    margin: auto 0;
+}
+
+table, td,th{
+    border: 1px solid;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: rgba(234, 255, 0, 0.282);
+}
+
+td{
+    text-align: center;
+    
+}
+/* nth-child() Selecciona los pares o impares de la etiqueta td  Con even son pares y con odd son impares*/
+tr:nth-child(even){
+    text-align: center;
+    background-color: rgb(218, 255, 255);
+    
+}
+
+tr:nth-child(odd){
+    text-align: center;
+    background-color: rgb(237, 255, 218);
+    
+}
+
+
+
