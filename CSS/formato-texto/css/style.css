@@ -1,0 +1,32 @@
+h1{
+    color: blueviolet;
+    background-color: aquamarine;
+    text-align: center;
+    text-transform: uppercase;
+    /* separar caracteres */
+    letter-spacing: 7px;
+    /* separar las palabras */
+    word-spacing: 10px;
+}
+
+.caja{
+    padding: 15px;
+    margin: auto;
+    width: 70%;
+    background-color: #219ebc;
+    border-radius: 5px;
+    color: white;
+}
+
+.texto{
+    text-align: justify;
+    /* direction: rtl; */
+    /* texto tachado */
+    /* text-decoration: line-through; */
+    /* aplicar sangria o dentacion */
+    text-indent: 30px;
+    /* cambiar el espacio entre renglon */
+    line-height: 3;
+    /* sombra en texto */
+    text-shadow: 2px 2px 2px lightcyan;
+}
