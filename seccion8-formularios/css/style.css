@@ -1,0 +1,94 @@
+/* google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+/* ------------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor-principal {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    background: linear-gradient(rgb(50, 0, 62), purple);
+    height: 100vh;
+  }
+  
+  .contenedor-formulario {
+    background-image: url(/seccion8-formularios/assets/white-texture-background-brush-strokes-white-canvas-painting-close-up-rough-textured-white-texture-background-subtle-155483842.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    box-shadow: 10px 10px 36px 0px rgba(0,0,0,0.5);
+    border-radius: 3vh;
+    padding: 10vh;
+    /* Agrega cualquier estilo adicional que necesites */
+  }
+
+  form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contenedor-formulario h1{
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+
+  label{
+    margin: 0 auto;
+    width: 70%;
+    font-size: 1.2rem;
+    display: block;
+  }
+
+  .datos{
+    background-color: rgba(78, 0, 77, 0.123);
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 1.5vh;
+    border-radius: 3vh;
+    border: none
+    
+  }
+
+  .datos:focus{
+    outline: none;
+  }
+
+  .enviar{
+    font-family: 'Poppins', sans-serif;
+    width: 70%;
+    border: none;
+    border-radius: 40px;
+    font-size: 1.5rem;
+    margin: 10px auto;
+    background-color: purple;
+    color: white;
+    padding: 10px;
+  }
+
+  .enviar:hover{
+    background-color: rgb(71, 21, 118);
+  }
+
+  
+  
+
+/* Estilos index.html
+
+label,input{
+    display: block;
+}
+
+.inputs-seleccion{
+    display: inline-block;
+} */
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form method="GET" action="">
+        <fieldset>
+            <legend>Datos persona</legend>
+
+            <!-- Deja un campo que para solo lectura, no se puede modificar con el atributo readonly -->
+            <label for="idPersona">ID:</label>
+            <input type="text" name="idPersona" id="idPersona" readonly="true" value="012012012">
+
+            <!-- Parametros ocultos -->
+            <input type="hidden" id="sistema" name="sistema" value="SAP">
+
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apelldio">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" name="contraseña" id="contraseña">
+
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" id="edad" step="any">
+
+            <label for="marca">Selecciona la marca de tu coche</label>
+            <label for="bugati"><input type="radio" name="marca" value="bugati" class="inputs-seleccion" id="bugati">Bugati</label>
+            <label for="bmw"><input type="radio" name="marca" value="bmw" class="inputs-seleccion" id="bmw">BMW</label>
+            <label for="audi"><input type="radio" name="marca" value="audi" class="inputs-seleccion" id="audi">Audi</label>
+            <label for="nissan"><input type="radio" name="marca" value="nissan" class="inputs-seleccion" id="nissan">Nissan</label>
+
+            <label for="musica">Seleciona tu musica favorita</label>
+            <label for="clasica"><input type="checkbox" name="musica" id="clasica" value="clasica" class="inputs-seleccion">Clásica</label>
+            <label for="rap"><input type="checkbox" name="musica" id="rap" value="rap" class="inputs-seleccion">Rap</label>
+            <label for="pop"><input type="checkbox" name="musica" id="pop" value="pop" class="inputs-seleccion">Pop</label>
+            <label for="metal"><input type="checkbox" name="musica" id="metal" value="metal" class="inputs-seleccion">Metal</label>
+            <label for="rock"><input type="checkbox" name="musica" id="rock" value="rock" class="inputs-seleccion">Rock</label>
+
+            <label for="motos">Seleciona tu marca de motos favorita</label>
+            <select name="motos" id="motos">
+                <option value="yamaha">Yamaha</option>
+                <option value="suzuki">Suzuki</option>
+                <option value="honda">Honda</option>
+                <option value="kawasaki">Kawasaki</option>
+                <option value="ktm">KTM</option>
+            </select>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            
+
+
+            <input type="submit" value="enviar">
+            <!-- carga los valores iniciales del formulario -->
+            <input type="reset" value="resetear">
+        </fieldset>
+    </form>
+
+</body>
+</html>
