@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap&effect=fire-animation');
+
+
+h1{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da;
+}
+
+.contenedor-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 40%;
+    height: 80px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    float: left;
+}
+
+
+
+.contenedor-principal.serif{
+    background-color: blueviolet;
+}
+
+.contenedor-principal.sans-serif{
+    background-color: darkcyan;
+}
+
+.contenedor-principal.monospace{
+    background-color: rgb(46, 0, 139);
+}
+
+.contenedor-principal.cursive{
+    background-color: rgb(139, 0, 0);
+}
+
+/* efectos de fuente google fonts */
+.font-effect-fire-animation{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+}
+
+.fuente-georgia{
+    font-family: georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5em;
+    
+}
+
+.fuente-arial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 3vw;
+}
+
+.fuente-verdana{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+.fuente-courier{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fuente-lucida{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
