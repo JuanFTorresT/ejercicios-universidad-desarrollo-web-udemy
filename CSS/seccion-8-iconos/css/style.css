@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+.boostrap{
+    padding: 15px;
+    max-width: 400px;
+    margin: auto;
+
+}
+
+.bi-xbox{
+    color: green;
+}
+
+.icono-azul{
+    color: aqua;
+}
+
+.icono-rojo{
+    color: red;
+    font-size: 2rem;
+}
+
+.git{
+    font-size: 2rem;
+    color: blue;
+}
