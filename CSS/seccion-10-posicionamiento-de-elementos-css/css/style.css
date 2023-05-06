@@ -1,0 +1,224 @@
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase
+    ;
+}
+
+
+.primero{
+    width: 50%;
+    border: 3px solid firebrick;
+    margin: auto;
+}
+
+.segundo{
+    /* es el posicionamiento por defecto */
+    position: static;
+    width: 50%;
+    border: 3px solid firebrick;
+    margin: auto;
+}
+
+.tercero{
+    /* con este posicionamiento podemos establecer como queremos que se mueva el elemento usando las propiedades top, right, bottom y left tomando como punto de referencia el lugar donde se encuentra en el body  o al elemento padre que lo contiene*/
+    position: relative;
+    left: 200px;
+    top: 100px;
+    width: 50%;
+    border: 3px solid firebrick;
+    margin: auto;
+}
+
+.cuarto{
+    /* nuestro elemento de tipo div se coloca de manera relativa a nuestra pantalla disponible y no se reserva el espacio para el elemento. si se hacer scroll el elemento mantiene su posicion por encima de los demás elementos, ideal para headers o logo o navbars o botones de chat que se muevan con el scroll*/
+    position: fixed;
+    width: 50%;
+    border: 3px solid firebrick;
+    margin: auto;
+    top: 0;
+    left: 0;
+    background-color: brown;
+    color: white;
+    z-index: 10000;
+}
+
+.quinto{
+    /* es similar al atributo fixed con la diferencia que al usar absolute al hacer scroll el elemento se mueve con todo el resto de contenido y toma de referencia el elemento padre que lo contiene.*/
+    position: absolute;
+    width: 50%;
+    border: 3px solid firebrick;
+    margin: auto;
+}
+
+
+.abajo{
+    position: relative;
+    
+    height: 300px;
+    width: 300px;
+    background-color: rgba(0, 255, 255, 0.53);
+}
+.arriba{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    top: 200px;
+    background-color: rgb(102, 102, 102);
+}
+
+.sexto{
+    /* funciona com un elemento relativo pero cuando sale de pantalla funciona como un elemento de tipo fixed, util para menus de navegacion */
+    position: sticky;
+    /* para que esta posicion funcione bien en safari se debe agergar los siguiente */
+    position: -webkit-sticky;
+    top: 0;
+    width: 50%;
+    border: 3px solid firebrick;
+    margin: auto;
+}
+
+.septimo{
+    position: static;
+    top:10px;
+    padding: 15px;
+    border:3px solid greenyellow;
+    background-color: whitesmoke;
+}
+
+.octavo{
+    position: relative;
+    top: -50px;
+    left: 10px;
+    padding: 15px;
+    border: 3px solid purple;
+    background-color: whitesmoke;
+    /* posiciona el div octavo detras del div septimo */
+
+}
+
+.noveno{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 112px;
+    border: 3px solid blue;
+    background-color: whitesmoke;z-index: -1;
+    
+    
+}
+
+.contenedor-ejercicio{
+    width: 90%;
+    margin: auto;
+}
+
+.contenedor-imagen{
+    position: relative;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto-imagen{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    border: 5px solid orange;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.574);
+}
+
+.texto-imagen:hover{
+    transition: 2s;
+    opacity: 0;
+}
+
+.texto-imagen p{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    margin: 0;
+    width: 100%;
+    
+}
+
+.contenedor{
+    border: 3px solid greenyellow;
+    width: 30%;
+    height: 50px;
+    margin: auto;
+    overflow: auto;
+}
+
+.contenedor-n{
+    border: 3px solid rgb(0, 255, 34);
+    width: 25%;
+    height: 100px;
+    overflow: auto;
+}
+
+.contenedor-n.float{
+    float: left;
+}
+
+.contenedor-n.float.right{
+    float: right;
+    border-color: rgb(255, 255, 0);
+}
+
+.contenedor-n.clear{
+    clear: both;
+    margin: auto;
+    border-color: blueviolet;
+}
+
+
+.contenedor-inline-block{
+    width: 80%;
+    height: 20%;
+    overflow: auto;
+    margin: auto;
+    border: 3px dashed chocolate;
+}
+
+.contenedor-inline-block span{
+    background-color: rgb(52, 145, 145);
+    font-weight: bolder;
+    font-style: italic;
+    font-size: larger;
+    color: white;
+    border: 1px solid #457b9d;
+    height: 100px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.menu{
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+    background-color: #457b9d;
+    padding: 10px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
