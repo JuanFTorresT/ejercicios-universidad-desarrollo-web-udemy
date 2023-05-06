@@ -1,0 +1,82 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(20, 20, 84);
+}
+
+.contenedor{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid cadetblue;
+    padding: 15px;
+    color: cornflowerblue;
+
+}
+
+.contenedor.descendiente p{
+    background-color: rgb(233, 229, 156);
+}
+
+.contenedor.hijo > p{
+    background-color: rgb(74, 0, 0);
+}
+
+.contenedor.adyacente+ p{
+    background-color: black;
+    color: white;
+}
+
+.contenedor.hermano ~ p{
+    background-color: aqua;
+}
+
+.contenedor-pseudo{
+    width: 30%;
+    border: 3px solid green;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.contenedor-pseudo:hover{
+    background-color: rgb(21, 72, 12);
+    color: white;
+}
+
+.contenedor-pseudo.oculto p{
+    display: none;
+}
+
+.contenedor-pseudo.oculto:hover p{
+    display: block;
+    background-color: rgb(80, 149, 68);
+    padding: 15px;
+}
+
+.contenedor-pseudo.primero p:first-child{
+    font-variant: small-caps;
+}
+
+
+
+.contenedor-pseudo p::first-line{
+    font-variant: small-caps;
+}
+
+.contenedor-pseudo p::first-letter{
+    color: darkblue;
+    font-size: 1.5em;
+}
+.contenedor-pseudo p::selection{
+    background-color: rgb(255, 247, 0);
+    color: rgb(0, 0, 0);
+}
+
+.contenedor-pseudo p::before{
+    content: "-";
+}
+
+.contenedor-pseudo p::after{
+    content: "-";
+}
