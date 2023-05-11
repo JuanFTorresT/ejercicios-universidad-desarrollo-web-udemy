@@ -1,0 +1,18 @@
+<script>
+    let cantidadOpciones = parseInt(prompt("Ingresa la cantidad de opciones a sortear"));
+    let opciones = [];
+    for (let opcion = 1; opcion <= cantidadOpciones; opcion++) {
+        let ingresoOpcion = prompt("Ingresa la opcion " + opcion);
+        opciones.push(ingresoOpcion);
+    }
+    function resultado(minimo, maximo) {
+        return Math.floor(Math.random()*(maximo-minimo) + minimo);
+    }
+
+    let resultadoFinal = resultado( 1, opciones.length )
+
+    document.write("TE TOCÓ LA OPCIÓN: " + opciones[resultadoFinal])
+
+    
+
+</script>
